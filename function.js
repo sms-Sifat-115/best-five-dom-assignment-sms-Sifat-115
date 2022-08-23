@@ -78,9 +78,6 @@ document.getElementById('btn-suarez').addEventListener('click', function () {
         alert('No more player selection allowed!');
     }
 })
-
-
-
 // Budget Calculation
 document.getElementById('btn-budget').addEventListener('click', function(){
     const allPlayers = list.children.length;
@@ -121,7 +118,5 @@ document.getElementById('total-budget-btn').addEventListener('click', function()
 
     const newTotalTeamBudget = newTotalTeamBudgetAmount + newPlayerBudget + newInputField2Amount + newInputField3Amount; 
     totalTeamBudget.innerText = newTotalTeamBudget; 
-    
-
 })
 
